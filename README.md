@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# EasyCart - Plateforme de Commerce Électronique
 
-## Getting Started
+Bienvenue sur le template d'EasyCart, une plateforme de commerce électronique conçue avec passion et technologie. Simplifiez votre expérience d'achat en explorant notre site intuitif et découvrez une variété de produits de haute qualité.
 
-First, run the development server:
+## Initialisation du Projet
+
+Avant de commencer à explorer notre site, assurez-vous d'initialiser le projet en exécutant les commandes suivantes dans votre terminal:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ces commandes installeront les dépendances nécessaires et lanceront le projet en mode développement.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Pages Disponibles
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 1. Accueil (/)
 
-## Learn More
+La page d'accueil vous accueille avec des offres spéciales et des aperçus des nouvelles collections. Explorez nos réductions exceptionnelles et découvrez les derniers produits ajoutés à notre catalogue.
 
-To learn more about Next.js, take a look at the following resources:
+### 2. Connexion (/login)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Accédez à votre compte en toute sécurité sur la page de connexion. Entrez vos identifiants pour profiter pleinement de votre expérience de shopping personnalisée.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 3. Création de Compte (/register)
 
-## Deploy on Vercel
+Si vous n'avez pas encore de compte, créez-en un sur la page d'inscription. Remplissez les informations nécessaires et bénéficiez d'avantages exclusifs réservés aux membres.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 4. Tous les Produits (/products)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Explorez notre catalogue complet de produits sur la page "Tous les Produits". Trouvez ce que vous recherchez rapidement et efficacement grâce à une navigation conviviale.
+
+### 5. Détails d'un Produit (/product)
+
+Découvrez en détail un produit spécifique sur la page dédiée. Consultez les caractéristiques et ajoutez-le à votre panier en un clic.
+
+### 6. Panier d'Achat (/product-cart)
+
+Gérez vos achats sur la page du panier d'achat. Consultez le récapitulatif de vos articles, ajustez les quantités et procédez au paiement en toute simplicité.
